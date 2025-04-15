@@ -29,4 +29,11 @@ public class UsuarioController {
     public void delete(@PathVariable Long id) {
         repository.deleteById(id);
     }
+    @PutMapping("/usuarios/{id}")
+    public Usuario actualizarUsuario(@PathVariable Long id, @RequestBody Usuario usuarioActualizado) {
+    Usuario usuario = usuarioRepository.findById(id).orElseThrow();
+    usuario.setNombre(usuarioActualizado.getNombre());
+    usuario.setEmail(usuarioActualizado.getEmail());
+        return usuarioRepository.save(usuario);
+    }
 }

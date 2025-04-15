@@ -1,32 +1,21 @@
-# 📦 API REST - CRUD de Usuarios (Spring Boot)
+# 🚀 API REST - CRUD de Usuarios (Spring Boot)
 
-Este proyecto es una API RESTful desarrollada con Spring Boot que permite gestionar usuarios mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
+API desarrollada con Spring Boot para gestionar usuarios (crear, listar, editar y eliminar).
 
----
+## 🔗 Producción
+https://usuario-api-render.onrender.com/usuarios
 
-## 🚀 Endpoints
-
-| Método | URL                             | Descripción              |
-|--------|----------------------------------|--------------------------|
-| GET    | `/usuarios`                     | Lista todos los usuarios |
-| POST   | `/usuarios`                     | Crea un nuevo usuario    |
-| PUT    | `/usuarios/{id}`                | Edita un usuario         |
-| DELETE | `/usuarios/{id}`                | Elimina un usuario       |
-
----
+## 🛠️ Endpoints
+- GET /usuarios → Lista usuarios
+- POST /usuarios → Crea usuario
+- PUT /usuarios/{id} → Edita usuario
+- DELETE /usuarios/{id} → Elimina usuario
 
 ## ⚙️ Tecnologías
+Java 17 · Spring Boot · Spring Data JPA · H2 · Maven
 
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- H2 (base de datos en memoria)
-- Maven
-- Docker (opcional)
-
----
-
-## 🛠️ Cómo ejecutar
-
-```bash
+## ▶️ Ejecutar
 ./mvnw spring-boot:run
+
+## 🧑‍💻 Autor
+Jesús Ramos Mejías — https://jr-code.es

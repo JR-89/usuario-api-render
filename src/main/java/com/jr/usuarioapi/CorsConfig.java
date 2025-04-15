@@ -1,4 +1,4 @@
-package com.jr.usuarioapi.config;
+package com.jr.usuarioapi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
